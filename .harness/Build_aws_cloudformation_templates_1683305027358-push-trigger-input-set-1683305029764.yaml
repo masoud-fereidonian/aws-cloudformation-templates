@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_aws_cloudformation_templates_1683305027358-push-trigger-input-set
+  identifier: Build_aws_cloudformation_templates_1683305027358pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_aws_cloudformation_templates_1683305027358
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
